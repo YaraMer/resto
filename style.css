@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.header{
+height: 90vh;
+position: relative;
+}
+.navbar{
+    height: 110px;
+    width:100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 10;
+}
+.navbar-box{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+.header-tertiary{
+    font-size: 3.5rem;
+}
+.navbar-list{
+list-style: none;
+font-size: 2rem;
+}
+.navbar-item{
+    display: inline-block;
+}
+.navbar-link:visited,
+.navbar-link:link{
+    text-decoration: none;
+    color: white;
+    padding: 3rem;
+}
